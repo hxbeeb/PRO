@@ -1,0 +1,37 @@
+ul{
+    margin-left: 13cm;   
+    font-style:italic;
+    font-size: large;
+    display: inline-table;
+   }
+ul li a{
+    padding: 5px 10px;
+    color:black;
+    border: 1px solid transparent;
+    transition: 0.1s;
+}
+ul li a:hover{
+    background-color: rgb(101, 247, 137);
+    color: #000;
+    border-radius: 10cm;
+
+}
+ul li.active a{
+    background-color: rgb(101, 247, 137);
+    color: #000;
+    border-radius: 10cm;
+}
+ul li{
+    display: inline-block;
+}
+.but {
+    border: 3px solid;
+    border-radius: 5cm;
+    background-color:rgb(251, 255, 0) ;
+   
+}
+.but :hover{
+    background-color:red ;
+    color: #000;
+    border-radius: 5cm;
+}
